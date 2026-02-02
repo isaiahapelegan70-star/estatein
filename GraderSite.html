@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIND YOUR GRADE</title>
+</head>
+<body>
+    <header>
+        <h1>GET YOUR STANDARDIZED GRADE</h1>
+    </header>
+    <label for="studentName">Enter Student Name:</label>
+    <p id="studentErr">error</p>
+    <input type="text" id="studentName" name="studentName">
+    <br>
+    <p></p>
+    <label for="studentGrade">Enter Student Score:</label>
+    <p id="gradeErr">Hello</p>
+    <input type="text" id="studentGrade" name="studentGrade">
+    <br>
+    <button onclick=handleGrade()>GET GRADE</button>
+
+    <br>
+    <h3>Your Standardized Grade is: <span id="gradeResult">...</span></h3>
+    <P id="comment">Comment</P>
+    <script src="Grader.script.js"></script>
+</body>
